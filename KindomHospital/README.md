@@ -1,5 +1,5 @@
-﻿# KindomHospital
-
+# KindomHospital
+<img src="https://media.senscritique.com/media/000006507220/300/kingdom_hospital.jpg" width="10%">
 Ce dépôt contient l'application `KindomHospital` (.NET 9).
 
 ## Objectif
@@ -10,7 +10,7 @@ Ce fichier décrit l'organisation des répertoires et des fichiers principaux du
 
 Le projet suit une séparation en couches  minimale : `Presentation`, `Application`, `Infrastructure` et `Domain`.
 
-
+```
 ┌──────────────────────────────┐
 │          Presentation        │  → ASP.NET Core Controllers, Blazor, etc.
 └──────────────▲───────────────┘
@@ -26,7 +26,7 @@ Le projet suit une séparation en couches  minimale : `Presentation`, `Applicati
 ┌──────────────┴───────────────┐
 │        Infrastructure        │  → EF Core, Repositories, Files, Email, APIs externes
 └──────────────────────────────┘
-
+```
 
 
 - `Presentation/`
@@ -99,4 +99,3 @@ Pour exploiter pleinement cette architecture, voici les principaux packages NuGe
 - Supprimer les fichiers inutiles (WeatherForecast par exemple)
 - Adapter le README à votre projet)
 - Ajouter un fichier .gitignore si nécessaire
-
