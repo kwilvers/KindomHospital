@@ -47,6 +47,7 @@ Le projet suit une séparation en couches  minimale : `Presentation`, `Applicati
 - `Infrastructure/`
   - `Infrastructure/Migrations/` : migrations de base de données liées au modèle de domaine (si vous utilisez EF Core ici).
   - `Infrastructure/Configurations/` : configurations du modèle (ex. `IEntityTypeConfiguration<T>` pour EF Core) et règles de mapping/domaine.
+  - `Infrastructure/Repositories/` : implémentations concrètes des interfaces de dépôt (repositories) pour accéder aux données (ex. via EF Core). 
   - Rôle : contenir les règles métier, invariants...
 
 ## Intégration et responsabilités
