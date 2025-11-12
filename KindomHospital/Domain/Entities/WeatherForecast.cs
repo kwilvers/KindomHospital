@@ -1,4 +1,4 @@
-namespace KindomHospital.Domain.Entities;
+namespace KingdomHospital.Domain.Entities;
 
 public class WeatherForecast
 {

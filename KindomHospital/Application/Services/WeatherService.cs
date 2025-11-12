@@ -1,8 +1,8 @@
-﻿using KindomHospital.Application.DTOs;
-using KindomHospital.Application.Mappers;
-using KindomHospital.Domain.Entities;
+﻿using KingdomHospital.Application.DTOs;
+using KingdomHospital.Application.Mappers;
+using KingdomHospital.Domain.Entities;
 
-namespace KindomHospital.Application.Services;
+namespace KingdomHospital.Application.Services;
 
 public class WeatherService(WeatherMapper mapper, ILogger<WeatherService> logger)
 {

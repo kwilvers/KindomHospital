@@ -1,6 +1,0 @@
-@KindomHospital_HostAddress = http://localhost:5039
-
-GET {{KindomHospital_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

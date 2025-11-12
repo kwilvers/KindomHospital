@@ -1,9 +1,8 @@
-using KindomHospital.Application.Services;
-using KindomHospital.Domain.Entities;
-using KindomHospital.Application.DTOs;
+using KingdomHospital.Application.DTOs;
+using KingdomHospital.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace KindomHospital.Presentation.Controllers
+namespace KingdomHospital.Presentation.Controllers
 {
     [ApiController]
     [Route("[controller]")]

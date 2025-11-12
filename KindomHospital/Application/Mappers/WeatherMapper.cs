@@ -1,7 +1,7 @@
-﻿using KindomHospital.Application.DTOs;
-using KindomHospital.Domain.Entities;
+﻿using KingdomHospital.Application.DTOs;
+using KingdomHospital.Domain.Entities;
 
-namespace KindomHospital.Application.Mappers;
+namespace KingdomHospital.Application.Mappers;
 
 public class WeatherMapper
 {
